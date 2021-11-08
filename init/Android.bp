@@ -1,0 +1,13 @@
+cc_library_static {
+    name: "libinit_mona",
+    include_dirs: [
+        "system/core/base/include",
+        "system/core/init",
+    ],
+    cflags: [
+        "-Wall",
+//      "-DBUILD_FOR_MONA",
+    ],
+    srcs: ["init_mona.cpp"],
+    recovery_available: true,
+}
