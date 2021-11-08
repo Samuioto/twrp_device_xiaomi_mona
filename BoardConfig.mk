@@ -108,10 +108,6 @@ PLATFORM_VERSION := 16.1.0
 TW_HAS_EDL_MODE := true
 TW_SUPPORT_INPUT_1_2_HAPTICS := true
 
-# File systems
-TARGET_USERIMAGES_USE_EROFS := true
-TARGET_USERIMAGES_USE_F2FS := true
-
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
