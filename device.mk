@@ -25,9 +25,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctrl.lahaina
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.lahaina \
     libgptutils \
     libz \
     libcutils
